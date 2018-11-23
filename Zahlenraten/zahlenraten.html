@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zahlen-Raten</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <script src="zahlenraten.js"></script>
+    </head>
+    <body>
+        <h1>Spiel Zahlenraten</h1>
+        
+        <div id = "formUserInpZufallsZahlen">
+            <label>Zufallszahlen Von/Bis</label>
+            <input type = "number" id="inpZufallVon"></input>
+            <input type = "number" id="inpZufallBis"></input>
+            <br>
+            <label>Ziehungen</label>
+            <input type = "number" id="inpZiehungen"></input>
+            <br>
+            <label>Anzahl der zu ratenden Zahlen</label>
+            <input type = "number" id="NumberZufallsZahlen"></input>
+            <br>
+            <button  id= "btnDatenFelderErstellen" class="btn">Erzeugen</button>
+            <div id = "formGenerierteDatenfelder"></div>
+            <button id ="btnStarten" class = "btn">Ziehung starten</button>
+        </div>
+        
+    </body>
+</html>

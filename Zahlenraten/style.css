@@ -1,0 +1,41 @@
+
+*{
+    background: black;
+    color:white;
+    font-size: 14 px;
+    font-family: courier, terminal, monospace;
+}
+
+h1{
+    background: yellowgreen;
+    color: red;
+    font-size: 26 px;
+    padding-top: 20 px;
+    padding-bottom: 20 px;
+    outline: 5px groove grey;
+}
+
+div{
+    border: 1px solid;
+    padding: 25px;
+    
+    border-radius: 15px;
+    margin: 15px auto;
+    box-shadow: inset -1px 2px 10px 5px grey;
+}
+
+#btnStarten
+{
+    width:200px;
+}
+
+button{
+    width: 100px;
+    height: 20px;
+    background-color: yellowgreen;
+}
+
+.btn:hover{
+    background-color:#ff00ff;
+}
+
